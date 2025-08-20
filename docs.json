@@ -66,6 +66,23 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "WizDocs",
+        "groups": [
+          {
+            "group": "Setting up a virtual machine",
+            "pages": [
+              "testpage"
+            ]
+          },
+          {
+            "group": "Hardening your virtual machine",
+            "pages": [
+              "hardening-vms"
+            ]
+          }
+        ]
       }
     ],
     "global": {
