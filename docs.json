@@ -77,9 +77,21 @@
             ]
           },
           {
-            "group": "Hardening your virtual machine",
+            "group": "Securing your virtual environment",
             "pages": [
-              "hardening-vms"
+              "hardening-virtual-machines"
+            ]
+          },
+          {
+            "group": "Configuring firewall rules",
+            "pages": [
+              "setting-up-ufw-ports"
+            ]
+          },
+          {
+            "group": "Project Implementation",
+            "pages": [
+              "setting-up-system-wide-dependencies"
             ]
           }
         ]
