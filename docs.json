@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "WizGlobal Official Internal Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,87 +11,87 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Home",
         "groups": [
           {
             "group": "Getting started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "index"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "UnitMaster",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Introduction",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "unitmaster/introduction"
             ]
           }
         ]
       },
       {
-        "tab": "WizDocs",
+        "tab": "Client Portal",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "client-portal/introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Docs",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "api/introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Infrastructure",
         "groups": [
           {
             "group": "Setting up a virtual machine",
             "pages": [
-              "testpage"
+              "infrastructure/introduction"
             ]
           },
           {
-            "group": "Securing your virtual environment",
+            "group": "Hardening Virtual Machines",
             "pages": [
-              "hardening-virtual-machines"
+              "infrastructure/hardening-virtual-machines",
+              "infrastructure/enabling-Livepatch",
+              "infrastructure/enabling-CIS-Compliance"
             ]
           },
           {
             "group": "Configuring firewall rules",
             "pages": [
-              "setting-up-ufw-ports"
+              "infrastructure/setting-up-ufw-ports"
+            ]
+          },
+          {
+            "group": "Installing System-wide Dependencies",
+            "pages": [
+              "infrastructure/setting-up-PostgreSQL",
+              "infrastructure/setting-up-Nginx",
+              "infrastructure/setting-up-Docker",
+              "infrastructure/installing-PHP",
+              "infrastructure/installing-Composer"
             ]
           },
           {
             "group": "Project Implementation",
             "pages": [
-              "setting-up-system-wide-dependencies"
+              "infrastructure/configuring-the-database",
+              "infrastructure/setting-up-UnitMaster"
             ]
           }
         ]
